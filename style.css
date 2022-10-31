@@ -2,16 +2,22 @@
 
 body {
     font-family: 'Outfit';
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    margin: 4px;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
 }
 
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
 
-
-
-
-
-
-
-
-
-/* .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); } */
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} 
