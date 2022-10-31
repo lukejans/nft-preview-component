@@ -1,34 +1,102 @@
 @import url('https://fonts.googleapis.com/css?family=Outfit:300,400,600');
 
 body {
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
     min-height: 100vh;
     width: 100vw;
-    box-sizing: border-box;
     margin: 4px;
     background-color: hsl(217, 54%, 11%);
     color: hsl(0, 0%, 100%);
 }
 
-.nft {
-    max-width: 250px;
-}
-
 .main-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 375px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 0.7rem;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.nft {
+    width: 325px;
+    border-radius: 0.5rem;
+}
+
+.title {
+    font-size: 1.5rem;
 }
 
 .description {
     font-size: 1rem;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.auction,
+.left-side,
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.auction {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side p {
+    color: hsl(178, 100%, 50%);
+}
+
+.right-side p {
+    color: hsl(215, 51%, 70%);
+}
+
+.logo {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.creator-txt {
+    color: hsl(215, 51%, 70%);
+    font-size: 1rem;
+}
+
+strong {
+    color: white;
+}
+
+#avatar {
+    max-width: 30px;
+    max-height: 30px;
+    border: 2px solid white;
+    border-radius: 100%;
 }
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 0.8rem; 
+    text-align: center; 
+    padding: 20px;
 }
 
 .attribution a { 
