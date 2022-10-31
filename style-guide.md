@@ -21,13 +21,4 @@ The designs were created to the following widths:
 - Very dark blue (line): hsl(215, 32%, 27%)
 - White: hsl(0, 0%, 100%)
 
-## Typography
 
-### Body Copy
-
-- Font size (paragraph): 18px
-
-### Font
-
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 300, 400, 600

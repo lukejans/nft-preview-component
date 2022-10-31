@@ -14,6 +14,19 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
+.nft {
+    max-width: 250px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    font-size: 1rem;
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
