@@ -1,156 +1,155 @@
 @import url('https://fonts.googleapis.com/css?family=Outfit:300,400,600');
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: hsl(217, 54%, 11%);
-    font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
 }
 
 .container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    min-height: 100vh;
-    width: 100vw;
-    color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  width: 100vw;
+  color: white;
 }
 
 .card-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 375px;
-    background-color: hsl(216, 50%, 16%);
-    border-radius: 0.7rem;
-    padding: 25px;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 375px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 0.7rem;
+  padding: 25px;
+  box-sizing: border-box;
 }
 
 .nft {
-    width: 100%;
-    border-radius: 0.5rem;
-    position: relative;
-    
+  width: 100%;
+  border-radius: 0.5rem;
+  position: relative;
 }
 
-.parent{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position:relative;
+.display-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-.effect{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position:absolute;
-    background-color: hsl(178, 100%, 50%,60%);
-    height: 100%;
-    width:100%;
-    opacity:0;
-    border-radius:0.5rem;
-    transition: all 0.5s ease-out;
+.effect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: hsl(178, 100%, 50%, 60%);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  border-radius: 0.5rem;
+  transition: all 0.5s ease-out;
 }
 
-.effect:hover{
-    cursor: pointer;
-    opacity: 1;
+.effect:hover {
+  cursor: pointer;
+  opacity: 1;
 }
 
 .content {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .title {
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-decoration: none;
-    color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
 }
 
 .title:hover {
-    color: hsl(178, 100%, 50%);
+  color: hsl(178, 100%, 50%);
 }
 
 .description {
-    font-size: 1rem;
-    font-weight: 300;
-    color: hsl(215, 51%, 70%);
+  font-size: 1rem;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
 }
 
 .auction,
 .left-side,
 .right-side {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .auction {
-    justify-content: space-between;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .left-side p {
-    color: hsl(178, 100%, 50%);
+  color: hsl(178, 100%, 50%);
 }
 
 .right-side p {
-    color: hsl(215, 51%, 70%);
+  color: hsl(215, 51%, 70%);
 }
 
 .logo {
-    max-width: 20px;
-    max-height: 20px;
+  max-width: 20px;
+  max-height: 20px;
 }
 
 hr {
-    color: hsl(215, 32%, 27%);
+  color: hsl(215, 32%, 27%);
 }
 
 .creator {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .creator-txt {
-    color: hsl(215, 51%, 70%);
-    font-size: 1rem;
+  color: hsl(215, 51%, 70%);
+  font-size: 1rem;
 }
 
 .creator-txt a {
-    text-decoration: none;
-    color: white;
-    font-weight: 400;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
 }
 
 .creator-txt a:hover {
-    color: hsl(178, 100%, 50%);
+  color: hsl(178, 100%, 50%);
 }
 
 strong {
-    color: white;
+  color: white;
 }
 
 #avatar {
-    max-width: 30px;
-    max-height: 30px;
-    border: 2px solid white;
-    border-radius: 100%;
+  max-width: 30px;
+  max-height: 30px;
+  border: 2px solid white;
+  border-radius: 100%;
 }
 
-.attribution { 
-    font-size: 0.8rem; 
-    text-align: center; 
-    padding: 20px;
+.attribution {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 20px;
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-} 
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
